@@ -14,6 +14,7 @@
         <xs:simpleContent>
         <xs:extension base="xmi:packagedElementType">
             <xs:attribute name="name" type="xs:string" use="optional"/>
+            <xs:attribute name="URI" type="xs:anyURI" use="optional"/>
             <xs:attribute name="visibility" use="optional">
                 <xs:simpleType>
                 <xs:restriction base="xs:string">

@@ -356,6 +356,8 @@
             <xs:element type="ownedLiteralType" name="ownedLiteral"/>
             <xs:element type="ownedAttributeType" name="ownedAttribute"/>
             <xs:element type="ownedOperationType" name="ownedOperation"/>
+            <xs:element type="ownedCommentType" name="ownedComment"/>
+            <xs:element type="ownedRuleType" name="ownedRule"/>
             <xs:element type="memberEndType" name="memberEnd"/>
             <xs:element type="navigableOwnedEndType" name="navigableOwnedEnd"/>
             <xs:element type="ownedEndType" name="ownedEnd"/>
