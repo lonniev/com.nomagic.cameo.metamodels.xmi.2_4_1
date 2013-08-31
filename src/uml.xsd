@@ -10,14 +10,11 @@
 
     <xs:import namespace="http://www.omg.org/spec/XMI/20110701" schemaLocation="XMI.xsd"/>
 
-    <xs:element name="Profile" type="ProfileType"/>
-
-    <xs:complexType name="ProfileType">
+    <xs:complexType name="PackagedElementType">
         <xs:simpleContent>
-        <xs:extension base="xmi:ProfileType">
-            <xs:attribute name="name" type="xs:string" use="required"/>
-            <xs:attribute name="URI" type="xs:anyURI" use="required"/>
-            <xs:attribute name="visibility" use="required">
+        <xs:extension base="xmi:packagedElementType">
+            <xs:attribute name="name" type="xs:string" use="optional"/>
+            <xs:attribute name="visibility" use="optional">
                 <xs:simpleType>
                 <xs:restriction base="xs:string">
                     <xs:enumeration value="public" />
@@ -29,4 +26,26 @@
          </xs:extension>
         </xs:simpleContent>
     </xs:complexType>
+
+    <xs:complexType name="ProfileType">
+        <xs:simpleContent>
+            <xs:extension base="xmi:ProfileType">
+                <xs:attribute name="name" type="xs:string" use="required"/>
+                <xs:attribute name="URI" type="xs:anyURI" use="required"/>
+                <xs:attribute name="visibility" use="required">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="public" />
+                            <xs:enumeration value="protected" />
+                            <xs:enumeration value="private" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:element name="Profile" type="ProfileType"/>
+    <xs:element name="Package" type="PackagedElementType"/>
+
 </xs:schema>

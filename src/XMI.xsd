@@ -180,36 +180,69 @@
     </xs:complexType>
 
     <xs:complexType name="ownedLiteralType">
-        <xs:sequence>
+        <xs:choice maxOccurs="unbounded">
             <xs:element type="classifierType" name="classifier"/>
-        </xs:sequence>
+            <xs:element type="ownedCommentType" name="ownedComment"/>
+        </xs:choice>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
 
         <xs:attributeGroup ref="name"/>
         <xs:attributeGroup ref="OptionalVisibility"/>
+        <xs:attribute type="xs:string" name="classifier" use="optional"/>
 
     </xs:complexType>
 
-    <xs:complexType name="lowerValueType">
+    <xs:complexType name="OptionalValueType">
         <xs:attributeGroup ref="IdTypeAttribs"/>
         <xs:attribute type="xs:string" name="value" use="optional"/>
     </xs:complexType>
 
-    <xs:complexType name="upperValueType">
+    <xs:complexType name="OptionalDefaultValueType">
         <xs:attributeGroup ref="IdTypeAttribs"/>
-        <xs:attribute type="xs:string" name="value" use="optional"/>
+        <xs:attribute type="xs:string" name="instance" use="optional"/>
+        <xs:anyAttribute processContents="skip"/>
+    </xs:complexType>
+
+    <xs:complexType name="RequiredValueType">
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="value" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="typeType">
         <xs:attributeGroup ref="RequiredHref"/>
     </xs:complexType>
 
+    <xs:complexType name="simpleStringContentType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string"/>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="specificationType">
+        <xs:sequence>
+            <xs:element type="simpleStringContentType" name="language"/>
+            <xs:element type="simpleStringContentType" name="body"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="name" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="ownedCommentType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+        <xs:element type="simpleStringContentType" name="body"/>
+        </xs:choice>
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="annotatedElement" use="optional"/>
+    </xs:complexType>
+
     <xs:complexType name="ownedAttributeType">
         <xs:choice maxOccurs="unbounded" minOccurs="0">
             <xs:element type="typeType" name="type"/>
-            <xs:element type="lowerValueType" name="lowerValue"/>
-            <xs:element type="upperValueType" name="upperValue"/>
+            <xs:element type="OptionalValueType" name="lowerValue"/>
+            <xs:element type="OptionalValueType" name="upperValue"/>
+            <xs:element type="OptionalDefaultValueType" name="defaultValue"/>
+            <xs:element type="ownedCommentType" name="ownedComment"/>
         </xs:choice>
         <xs:attributeGroup ref="IdTypeAttribs"/>
         <xs:attribute type="xs:string" name="name" use="optional"/>
@@ -218,6 +251,48 @@
         <xs:attribute type="xs:string" name="isOrdered" use="optional"/>
         <xs:attribute type="xs:string" name="isUnique" use="optional"/>
         <xs:attribute type="xs:string" name="isDerived" use="optional"/>
+        <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
+    </xs:complexType>
+
+    <xs:complexType name="ownedParameterType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="typeType" name="type"/>
+            <xs:element type="OptionalValueType" name="lowerValue"/>
+            <xs:element type="OptionalValueType" name="upperValue"/>
+            <xs:element type="OptionalDefaultValueType" name="defaultValue"/>
+            <xs:element type="ownedCommentType" name="ownedComment"/>
+        </xs:choice>
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="name" use="optional"/>
+        <xs:attributeGroup ref="OptionalVisibility"/>
+        <xs:attribute type="xs:string" name="association" use="optional"/>
+        <xs:attribute type="xs:string" name="isOrdered" use="optional"/>
+        <xs:attribute type="xs:string" name="isUnique" use="optional"/>
+        <xs:attribute type="xs:string" name="isDerived" use="optional"/>
+        <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
+    </xs:complexType>
+
+    <xs:complexType name="ownedRuleType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="specificationType" name="specification"/>
+            <xs:element type="ownedCommentType" name="ownedComment"/>
+        </xs:choice>
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="name" use="optional"/>
+        <xs:attribute type="xs:string" name="constrainedElement" use="optional"/>
+
+    </xs:complexType>
+
+    <xs:complexType name="ownedOperationType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="ownedCommentType" name="ownedComment"/>
+            <xs:element type="ownedParameterType" name="ownedParameter"/>
+            <xs:element type="ownedRuleType" name="ownedRule"/>
+        </xs:choice>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="name" use="optional"/>
+        <xs:attributeGroup ref="OptionalVisibility"/>
         <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
     </xs:complexType>
 
@@ -231,8 +306,9 @@
 
     <xs:complexType name="ownedEndType">
         <xs:sequence>
-            <xs:element type="upperValueType" name="upperValue" minOccurs="0"/>
-            <xs:element type="lowerValueType" name="lowerValue"/>
+            <xs:element type="OptionalValueType" name="upperValue" minOccurs="0"/>
+            <xs:element type="OptionalValueType" name="lowerValue"/>
+            <xs:element type="ownedCommentType" name="ownedComment" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
@@ -279,6 +355,7 @@
         <xs:choice maxOccurs="unbounded" minOccurs="0">
             <xs:element type="ownedLiteralType" name="ownedLiteral"/>
             <xs:element type="ownedAttributeType" name="ownedAttribute"/>
+            <xs:element type="ownedOperationType" name="ownedOperation"/>
             <xs:element type="memberEndType" name="memberEnd"/>
             <xs:element type="navigableOwnedEndType" name="navigableOwnedEnd"/>
             <xs:element type="ownedEndType" name="ownedEnd"/>
@@ -293,6 +370,8 @@
 
         <xs:attributeGroup ref="name"/>
         <xs:attribute type="xs:string" name="isAbstract" use="optional"/>
+        <xs:attribute type="xs:string" name="isDerived" use="optional"/>
+        <xs:attribute type="xs:string" name="memberEnd" use="optional"/>
 
     </xs:complexType>
 
