@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8febca-391b-4389-a47d-8d015de3ce61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UML_2_4_xmi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/L3_2_4_xmi.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMI.xsd" afterPath="$PROJECT_DIR$/src/XMI.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uml.xsd" afterPath="$PROJECT_DIR$/src/uml.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.nomagic.cameo.metamodels.xmi.2_4_1.iws" />
@@ -12,10 +11,10 @@
     <file path="/a.java" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377871948966" ignored="false" />
     <file path="/sysML_1_3_xmi.xml" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377918955471" ignored="false" />
     <file path="/foo.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377880124808" ignored="false" />
-    <file path="/XMI.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377970262440" ignored="false" />
+    <file path="/XMI.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377970762820" ignored="false" />
     <file path="/uml.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377970122922" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/f11dc60c_20110701.html" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377901081555" ignored="false" />
-    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377970417768" ignored="false" />
+    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377970824100" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="XMI.xsd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="367" column="32" selection-start="15505" selection-end="15549" vertical-scroll-proportion="0.0">
+            <state line="350" column="47" selection-start="14463" selection-end="14463" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,7 +87,7 @@
       <file leaf-file-name="uml.xsd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uml.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="67" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
+            <state line="14" column="39" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,10 +102,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sysML_1_3_xmi.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sysML_1_3_xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="0.33274338">
+            <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="-7.68">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="L3_2_4_xmi.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/L3_2_4_xmi.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.07457627">
               <folding />
             </state>
           </provider>
@@ -407,12 +415,16 @@
       <created>1377970015307</created>
       <updated>1377970015307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add details to accommodate UML's overall.XMI file.">
+      <created>1377970518454</created>
+      <updated>1377970518454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -425,7 +437,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21024546" sideWeight="0.6709265" order="1" side_tool="false" content_ui="tabs" />
@@ -483,7 +495,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add details to accommodate UML's overall.XMI file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add details to accommodate UML's packageMerge elements." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -500,6 +512,7 @@
     <MESSAGE value="Add details to accommodate UML's Superstructure.XMI file." />
     <MESSAGE value="Add details to accommodate UML's Infrastructure.XMI file." />
     <MESSAGE value="Add details to accommodate UML's overall.XMI file." />
+    <MESSAGE value="Add details to accommodate UML's packageMerge elements." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -568,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uml.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Superstructure_2_4_xmi.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5582" column="156" selection-start="687696" selection-end="687696" vertical-scroll-proportion="0.0">
@@ -594,16 +600,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
+    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="367" column="32" selection-start="15505" selection-end="15549" vertical-scroll-proportion="0.0">
+        <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="-7.68">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
+    <entry file="file://$PROJECT_DIR$/src/uml.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="0.33274338">
+        <state line="14" column="39" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="350" column="47" selection-start="14463" selection-end="14463" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/L3_2_4_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.07457627">
           <folding />
         </state>
       </provider>

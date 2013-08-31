@@ -333,13 +333,22 @@
         <xs:attribute type="xs:string" name="isSubstitutable" use="optional"/>
     </xs:complexType>
 
-    <xs:complexType name="importedPackageType">
+    <xs:complexType name="hrefedPackageType">
         <xs:attributeGroup ref="RequiredHref"/>
     </xs:complexType>
 
     <xs:complexType name="packageImportType">
         <xs:sequence>
-            <xs:element type="importedPackageType" name="importedPackage" minOccurs="0"/>
+            <xs:element type="hrefedPackageType" name="importedPackage" minOccurs="0"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="importedPackage" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="packageMergeType">
+        <xs:sequence>
+            <xs:element type="hrefedPackageType" name="mergedPackage" minOccurs="0"/>
         </xs:sequence>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
@@ -363,6 +372,7 @@
             <xs:element type="ownedEndType" name="ownedEnd"/>
             <xs:element type="generalizationType" name="generalization"/>
             <xs:element type="packageImportType" name="packageImport"/>
+            <xs:element type="packageMergeType" name="packageMerge"/>
             <xs:element type="profileApplicationType" name="profileApplication"/>
             <xs:element type="packagedElementType" name="packagedElement"/>
             <xs:any processContents="lax"/>
