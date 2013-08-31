@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.omg.org/spec/UML/20110701"
+        xmlns="http://www.omg.org/spec/UML/20110701"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified"
+        xmlns:xmi="http://www.omg.org/spec/XMI/20110701"
+        >
+
+    <xs:import namespace="http://www.omg.org/spec/XMI/20110701" schemaLocation="XMI.xsd"/>
+
+    <xs:element name="Profile" type="ProfileType"/>
+
+    <xs:complexType name="ProfileType">
+        <xs:simpleContent>
+        <xs:extension base="xmi:ProfileType">
+            <xs:attribute name="name" type="xs:string" use="required"/>
+            <xs:attribute name="URI" type="xs:anyURI" use="required"/>
+            <xs:attribute name="visibility" use="required">
+                <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="public" />
+                    <xs:enumeration value="protected" />
+                    <xs:enumeration value="private" />
+                </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+         </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

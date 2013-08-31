@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.omg.org/spec/XMI/20110701"
+        xmlns="http://www.omg.org/spec/XMI/20110701"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified"
+        >
+
+    <xs:attributeGroup name="IdentityAttribs">
+        <xs:attribute name="label" type="xs:string" use="optional" form="qualified"/>
+        <xs:attribute name="uuid" type="xs:string" use="optional" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="LinkAttribs">
+        <xs:attribute name="href" type="xs:anyURI" use="optional"/>
+        <xs:attribute name="idref" type="xs:IDREF" use="optional" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="ObjectAttribs">
+        <xs:attributeGroup ref="IdentityAttribs"/>
+        <xs:attributeGroup ref="LinkAttribs"/>
+        <xs:attribute name="type" type="xs:QName" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:complexType name="xmiType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:any processContents="strict"/>
+        </xs:choice>
+        <xs:attributeGroup ref="OptionalIdTypeAttribs"/>
+        <xs:attributeGroup ref="IdentityAttribs"/>
+        <xs:attributeGroup ref="LinkAttribs"/>
+    </xs:complexType>
+
+    <xs:complexType name="Documentation">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="contact" type="xs:string"/>
+            <xs:element name="exporter" type="xs:string"/>
+            <xs:element name="exporterVersion" type="xs:string"/>
+            <xs:element name="longDescription" type="xs:string"/>
+            <xs:element name="shortDescription" type="xs:string"/>
+            <xs:element name="notice" type="xs:string"/>
+            <xs:element name="owner" type="xs:string"/>
+            <xs:element name="timestamp" type="xs:dateTime"/>
+            <xs:element ref="Extension"/>
+        </xs:choice>
+        <xs:attributeGroup ref="RequiredId"/>
+        <xs:attributeGroup ref="ObjectAttribs"/>
+    </xs:complexType>
+
+    <xs:complexType name="Extension">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:any processContents="lax"/>
+        </xs:choice>
+        <xs:attributeGroup ref="RequiredId"/>
+        <xs:attributeGroup ref="ObjectAttribs"/>
+        <xs:attribute name="extender" type="xs:string" use="optional"/>
+        <xs:attribute name="extenderID" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Difference">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="target">
+                <xs:complexType>
+                    <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:any processContents="skip"/>
+                    </xs:choice>
+                    <xs:anyAttribute processContents="skip"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="difference" type="Difference"/>
+            <xs:element name="container" type="Difference"/>
+            <xs:element ref="Extension"/>
+        </xs:choice>
+        <xs:attributeGroup ref="RequiredId"/>
+        <xs:attributeGroup ref="ObjectAttribs"/>
+        <xs:attribute name="target" type="xs:IDREFS" use="optional"/>
+        <xs:attribute name="container" type="xs:IDREFS" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Add">
+        <xs:complexContent>
+            <xs:extension base="Difference">
+                <xs:attribute name="position" type="xs:integer" use="optional"/>
+                <xs:attribute name="addition" type="xs:IDREFS" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Replace">
+        <xs:complexContent>
+            <xs:extension base="Difference">
+                <xs:attribute name="position" type="xs:integer" use="optional"/>
+                <xs:attribute name="replacement" type="xs:IDREFS"
+                              use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Delete">
+        <xs:complexContent>
+            <xs:extension base="Difference"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Any">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:any processContents="skip"/>
+        </xs:choice>
+        <xs:anyAttribute processContents="skip"/>
+    </xs:complexType>
+
+    <xs:element name="documentation" type="Documentation"/>
+    <xs:element name="Documentation" type="Documentation"/>
+
+    <xs:element name="difference" type="Difference"/>
+    <xs:element name="Difference" type="Difference"/>
+
+    <xs:element name="extension" type="Extension"/>
+    <xs:element name="Extension" type="Extension"/>
+
+    <xs:element name="Add" type="Add"/>
+    <xs:element name="Replace" type="Replace"/>
+    <xs:element name="Delete" type="Delete"/>
+
+
+    <xs:element name="XMI" type="xmiType"/>
+
+
+    <!-- End Standard XMI.xsd Content, Begin Custom Content for UML-XMI -->
+
+    <xs:attributeGroup name="name">
+        <xs:attribute name="name" type="xs:string" form="unqualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="OptionalVisibility">
+        <xs:attribute name="visibility" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="public" />
+                    <xs:enumeration value="protected" />
+                    <xs:enumeration value="private" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="OptionalIdref">
+        <xs:attribute name="idref" type="xs:IDREF" use="optional" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="RequiredIdref">
+        <xs:attribute name="idref" type="xs:IDREF" use="required" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="RequiredHref">
+        <xs:attribute name="href" type="xs:anyURI" form="unqualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="URI">
+        <xs:attribute name="URI" type="xs:anyURI" form="unqualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="OptionalIdTypeAttribs">
+        <xs:attribute name="id" type="xs:ID" use="optional" form="qualified"/>
+        <xs:attribute name="type" type="xs:QName" use="optional" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="IdTypeAttribs">
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"/>
+        <xs:attribute name="type" type="xs:QName" use="required" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="RequiredId">
+        <xs:attribute name="id" type="xs:ID" use="required" form="qualified"/>
+    </xs:attributeGroup>
+
+    <xs:complexType name="classifierType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
+    <xs:complexType name="ownedLiteralType">
+        <xs:sequence>
+            <xs:element type="classifierType" name="classifier"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+
+        <xs:attributeGroup ref="name"/>
+        <xs:attributeGroup ref="OptionalVisibility"/>
+
+    </xs:complexType>
+
+    <xs:complexType name="lowerValueType">
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="value" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="upperValueType">
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="value" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="typeType">
+        <xs:attributeGroup ref="RequiredHref"/>
+    </xs:complexType>
+
+    <xs:complexType name="ownedAttributeType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="typeType" name="type"/>
+            <xs:element type="lowerValueType" name="lowerValue"/>
+            <xs:element type="upperValueType" name="upperValue"/>
+        </xs:choice>
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="name" use="optional"/>
+        <xs:attributeGroup ref="OptionalVisibility"/>
+        <xs:attribute type="xs:string" name="association" use="optional"/>
+        <xs:attribute type="xs:string" name="isOrdered" use="optional"/>
+        <xs:attribute type="xs:string" name="isUnique" use="optional"/>
+        <xs:attribute type="xs:string" name="isDerived" use="optional"/>
+        <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
+    </xs:complexType>
+
+    <xs:complexType name="memberEndType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
+    <xs:complexType name="navigableOwnedEndType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
+    <xs:complexType name="ownedEndType">
+        <xs:sequence>
+            <xs:element type="upperValueType" name="upperValue" minOccurs="0"/>
+            <xs:element type="lowerValueType" name="lowerValue"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attributeGroup ref="name"/>
+        <xs:attributeGroup ref="OptionalVisibility"/>
+        <xs:attribute type="xs:string" name="aggregation" use="optional"/>
+        <xs:attribute type="xs:string" name="association" use="optional"/>
+        <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
+    </xs:complexType>
+
+    <xs:complexType name="generalType">
+        <xs:attributeGroup ref="RequiredHref"/>
+    </xs:complexType>
+
+    <xs:complexType name="generalizationType">
+        <xs:sequence>
+            <xs:element type="generalType" name="general" minOccurs="0"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="general" use="optional"/>
+        <xs:attribute type="xs:string" name="isSubstitutable" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="importedPackageType">
+        <xs:attributeGroup ref="RequiredHref"/>
+    </xs:complexType>
+
+    <xs:complexType name="packageImportType">
+        <xs:sequence>
+            <xs:element type="importedPackageType" name="importedPackage" minOccurs="0"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="importedPackage" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="profileApplicationType">
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attribute type="xs:string" name="appliedProfile"/>
+    </xs:complexType>
+
+    <xs:complexType name="packagedElementType">
+        <xs:choice maxOccurs="unbounded" minOccurs="0">
+            <xs:element type="ownedLiteralType" name="ownedLiteral"/>
+            <xs:element type="ownedAttributeType" name="ownedAttribute"/>
+            <xs:element type="memberEndType" name="memberEnd"/>
+            <xs:element type="navigableOwnedEndType" name="navigableOwnedEnd"/>
+            <xs:element type="ownedEndType" name="ownedEnd"/>
+            <xs:element type="generalizationType" name="generalization"/>
+            <xs:element type="packageImportType" name="packageImport"/>
+            <xs:element type="profileApplicationType" name="profileApplication"/>
+            <xs:element type="packagedElementType" name="packagedElement"/>
+            <xs:any processContents="lax"/>
+        </xs:choice>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+
+        <xs:attributeGroup ref="name"/>
+        <xs:attribute type="xs:string" name="isAbstract" use="optional"/>
+
+    </xs:complexType>
+
+    <xs:complexType name="metamodelReferenceType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
+    <xs:complexType name="ProfileType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="packagedElement" type="packagedElementType" minOccurs="0" form="unqualified"/>
+            <xs:element name="packageImport" type="packageImportType" minOccurs="0" form="unqualified"/>
+            <xs:element name="metamodelReference" type="metamodelReferenceType" minOccurs="0" form="unqualified"/>
+            <xs:any processContents="lax" minOccurs="0"/>
+        </xs:choice>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+
+    </xs:complexType>
+
+</xs:schema>
