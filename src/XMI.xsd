@@ -352,7 +352,7 @@
         </xs:sequence>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
-        <xs:attribute type="xs:string" name="importedPackage" use="optional"/>
+        <xs:attribute type="xs:string" name="mergedPackage" use="optional"/>
     </xs:complexType>
 
     <xs:complexType name="profileApplicationType">
@@ -375,7 +375,7 @@
             <xs:element type="packageMergeType" name="packageMerge"/>
             <xs:element type="profileApplicationType" name="profileApplication"/>
             <xs:element type="packagedElementType" name="packagedElement"/>
-            <xs:any processContents="lax"/>
+            <!-- <xs:any processContents="lax"/> -->
         </xs:choice>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
@@ -396,7 +396,7 @@
             <xs:element name="packagedElement" type="packagedElementType" minOccurs="0" form="unqualified"/>
             <xs:element name="packageImport" type="packageImportType" minOccurs="0" form="unqualified"/>
             <xs:element name="metamodelReference" type="metamodelReferenceType" minOccurs="0" form="unqualified"/>
-            <xs:any processContents="lax" minOccurs="0"/>
+            <!-- <xs:any processContents="lax" minOccurs="0"/> -->
         </xs:choice>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
