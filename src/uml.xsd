@@ -10,20 +10,36 @@
 
     <xs:import namespace="http://www.omg.org/spec/XMI/20110701" schemaLocation="XMI.xsd"/>
 
+    <xs:attributeGroup name="OptionalVisibility">
+        <xs:attribute name="visibility" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="public" />
+                    <xs:enumeration value="protected" />
+                    <xs:enumeration value="private" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="RequiredVisibility">
+        <xs:attribute name="visibility" use="optional">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="public" />
+                    <xs:enumeration value="protected" />
+                    <xs:enumeration value="private" />
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+
     <xs:complexType name="PackagedElementType">
         <xs:complexContent>
             <xs:extension base="xmi:packagedElementType">
                 <xs:attribute name="name" type="xs:string" use="optional"/>
                 <xs:attribute name="URI" type="xs:anyURI" use="optional"/>
-                <xs:attribute name="visibility" use="optional">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="public"/>
-                            <xs:enumeration value="protected"/>
-                            <xs:enumeration value="private"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
+                <xs:attributeGroup ref="OptionalVisibility" />
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
@@ -33,20 +49,13 @@
             <xs:extension base="xmi:ProfileType">
                 <xs:attribute name="name" type="xs:string" use="required"/>
                 <xs:attribute name="URI" type="xs:anyURI" use="required"/>
-                <xs:attribute name="visibility" use="required">
-                    <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                            <xs:enumeration value="public"/>
-                            <xs:enumeration value="protected"/>
-                            <xs:enumeration value="private"/>
-                        </xs:restriction>
-                    </xs:simpleType>
-                </xs:attribute>
+                <xs:attributeGroup ref="RequiredVisibility" />
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
 
     <xs:element name="Profile" type="ProfileType"/>
     <xs:element name="Package" type="PackagedElementType"/>
+    <xs:element name="Model" type="PackagedElementType"/>
 
 </xs:schema>

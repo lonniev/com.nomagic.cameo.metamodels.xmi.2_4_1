@@ -133,6 +133,10 @@
         <xs:attribute name="name" type="xs:string" form="unqualified"/>
     </xs:attributeGroup>
 
+    <xs:attributeGroup name="value">
+        <xs:attribute name="value" type="xs:string" form="unqualified"/>
+    </xs:attributeGroup>
+
     <xs:attributeGroup name="OptionalVisibility">
         <xs:attribute name="visibility" use="optional">
             <xs:simpleType>
@@ -228,12 +232,18 @@
         <xs:attribute type="xs:string" name="name" use="optional"/>
     </xs:complexType>
 
+    <xs:complexType name="idReferringElementType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
     <xs:complexType name="ownedCommentType">
         <xs:choice maxOccurs="unbounded" minOccurs="0">
-        <xs:element type="simpleStringContentType" name="body"/>
+            <xs:element type="simpleStringContentType" name="body"/>
+            <xs:element type="idReferringElementType" name="annotatedElement"/>
         </xs:choice>
         <xs:attributeGroup ref="IdTypeAttribs"/>
         <xs:attribute type="xs:string" name="annotatedElement" use="optional"/>
+        <xs:attribute type="xs:string" name="body" use="optional"/>
     </xs:complexType>
 
     <xs:complexType name="ownedAttributeType">
@@ -375,12 +385,14 @@
             <xs:element type="packageMergeType" name="packageMerge"/>
             <xs:element type="profileApplicationType" name="profileApplication"/>
             <xs:element type="packagedElementType" name="packagedElement"/>
+            <xs:element type="idReferringElementType" name="classifier"/>
             <!-- <xs:any processContents="lax"/> -->
         </xs:choice>
 
         <xs:attributeGroup ref="IdTypeAttribs"/>
 
         <xs:attributeGroup ref="name"/>
+        <xs:attributeGroup ref="value"/>
         <xs:attribute type="xs:string" name="isAbstract" use="optional"/>
         <xs:attribute type="xs:string" name="isDerived" use="optional"/>
         <xs:attribute type="xs:string" name="memberEnd" use="optional"/>
