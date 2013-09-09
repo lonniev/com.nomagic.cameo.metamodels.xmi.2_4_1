@@ -329,6 +329,20 @@
         <xs:anyAttribute processContents="skip"/> <!-- leave here for conflict with UML's @type -->
     </xs:complexType>
 
+    <xs:complexType name="connectorEndType">
+        <xs:attributeGroup ref="RequiredIdref"/>
+    </xs:complexType>
+
+    <xs:complexType name="ownedConnectorType">
+        <xs:sequence>
+            <xs:element type="connectorEndType" name="end" minOccurs="2" maxOccurs="2"/>
+            <xs:element type="ownedCommentType" name="ownedComment" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+
+        <xs:attributeGroup ref="IdTypeAttribs"/>
+        <xs:attributeGroup ref="name"/>
+    </xs:complexType>
+
     <xs:complexType name="generalType">
         <xs:attributeGroup ref="RequiredHref"/>
     </xs:complexType>
@@ -380,6 +394,7 @@
             <xs:element type="memberEndType" name="memberEnd"/>
             <xs:element type="navigableOwnedEndType" name="navigableOwnedEnd"/>
             <xs:element type="ownedEndType" name="ownedEnd"/>
+            <xs:element type="ownedConnectorType" name="ownedConnector"/>
             <xs:element type="generalizationType" name="generalization"/>
             <xs:element type="packageImportType" name="packageImport"/>
             <xs:element type="packageMergeType" name="packageMerge"/>

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be8febca-391b-4389-a47d-8d015de3ce61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMI.xsd" afterPath="$PROJECT_DIR$/src/XMI.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uml.xsd" afterPath="$PROJECT_DIR$/src/uml.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.nomagic.cameo.metamodels.xmi.2_4_1.iws" />
@@ -11,10 +10,10 @@
     <file path="/a.java" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377871948966" ignored="false" />
     <file path="/sysML_1_3_xmi.xml" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377918955471" ignored="false" />
     <file path="/foo.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377880124808" ignored="false" />
-    <file path="/XMI.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378599725947" ignored="false" />
+    <file path="/XMI.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378758014603" ignored="false" />
     <file path="/uml.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378598931081" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/f11dc60c_20110701.html" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377901081555" ignored="false" />
-    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378593197055" ignored="false" />
+    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378606207750" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XMI.xsd" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="XMI.xsd" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="387" column="70" selection-start="16378" selection-end="16378" vertical-scroll-proportion="0.0">
+            <state line="335" column="68" selection-start="13975" selection-end="13975" vertical-scroll-proportion="-0.10958904">
               <folding>
                 <element signature="tag#xs:attributeGroup#0;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
@@ -103,37 +102,25 @@
                 <element signature="tag#xs:complexContent#0;tag#xs:complexType#6;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:choice#0;tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:attributeGroup#7;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:attributeGroup#12;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:attributeGroup#9;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:choice#0;tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#10;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#13;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#11;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#12;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:sequence#0;tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:choice#0;tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:choice#0;tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:choice#0;tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#17;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:choice#0;tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#22;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#23;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:sequence#0;tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#25;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:sequence#0;tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:sequence#0;tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:sequence#0;tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:sequence#0;tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:choice#0;tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
+                <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -164,7 +151,7 @@
       <file leaf-file-name="AMPSESF-TD.xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="56" selection-start="1417" selection-end="1453" vertical-scroll-proportion="0.0">
+            <state line="280" column="48" selection-start="24396" selection-end="24407" vertical-scroll-proportion="-14.56">
               <folding />
             </state>
           </provider>
@@ -173,7 +160,7 @@
       <file leaf-file-name="sysML_1_3_xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="0.0">
+            <state line="5" column="43" selection-start="193" selection-end="216" vertical-scroll-proportion="-4.4">
               <folding />
             </state>
           </provider>
@@ -188,10 +175,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Superstructure_2_4_xmi.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Superstructure_2_4_xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Superstructure_2_4_xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5936" column="92" selection-start="733264" selection-end="733264" vertical-scroll-proportion="0.041904762">
+            <state line="5936" column="92" selection-start="733264" selection-end="733264" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -490,7 +477,11 @@
       <created>1378010429538</created>
       <updated>1378010429538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added a few more elements and attributes to support MagicDraw's serialization.">
+      <created>1378606213969</created>
+      <updated>1378606213969</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -508,9 +499,10 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285968" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2096577" sideWeight="0.6709265" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2096577" sideWeight="0.67140317" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -520,7 +512,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -566,7 +557,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up the XSD to make EMF Ecore from XSD happy" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a few more elements and attributes to support MagicDraw's serialization." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -585,6 +576,7 @@
     <MESSAGE value="Add details to accommodate UML's overall.XMI file." />
     <MESSAGE value="Add details to accommodate UML's packageMerge elements." />
     <MESSAGE value="cleaned up the XSD to make EMF Ecore from XSD happy" />
+    <MESSAGE value="added a few more elements and attributes to support MagicDraw's serialization." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -617,37 +609,25 @@
             <element signature="tag#xs:complexContent#0;tag#xs:complexType#6;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#12;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:attributeGroup#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#10;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#13;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#11;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#12;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:sequence#0;tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#17;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#22;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#23;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#25;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -695,37 +675,25 @@
             <element signature="tag#xs:complexContent#0;tag#xs:complexType#6;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#12;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:attributeGroup#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#10;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#13;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#11;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#12;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:sequence#0;tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#17;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#22;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#23;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#25;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,9 +744,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/L3_2_4_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Superstructure_2_4_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5936" column="92" selection-start="733264" selection-end="733264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="48" selection-start="24396" selection-end="24407" vertical-scroll-proportion="-14.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure_2_4_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9623" column="68" selection-start="804981" selection-end="804981" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="tag#packagedElement#16;tag#packagedElement#1;tag#uml:Package#0;tag#xmi:XMI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="193" selection-end="216" vertical-scroll-proportion="-4.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="70" selection-start="16378" selection-end="16378" vertical-scroll-proportion="0.0">
+        <state line="335" column="68" selection-start="13975" selection-end="13975" vertical-scroll-proportion="-0.10958904">
           <folding>
             <element signature="tag#xs:attributeGroup#0;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
@@ -803,75 +808,26 @@
             <element signature="tag#xs:complexContent#0;tag#xs:complexType#6;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#7;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:attributeGroup#12;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:attributeGroup#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#9;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#10;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#13;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#11;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#12;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:sequence#0;tag#xs:complexType#15;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#18;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#19;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#20;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#17;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:choice#0;tag#xs:complexType#21;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#22;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#23;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#24;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#25;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#26;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#28;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:sequence#0;tag#xs:complexType#29;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#30;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#33;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="56" selection-start="1417" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure_2_4_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9623" column="68" selection-start="804981" selection-end="804981" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#packagedElement#16;tag#packagedElement#1;tag#uml:Package#0;tag#xmi:XMI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2103" column="12" selection-start="173881" selection-end="173881" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/L3_2_4_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Superstructure_2_4_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5936" column="92" selection-start="733264" selection-end="733264" vertical-scroll-proportion="0.041904762">
-          <folding />
         </state>
       </provider>
     </entry>
