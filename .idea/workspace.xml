@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be8febca-391b-4389-a47d-8d015de3ce61" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMI.xsd" afterPath="$PROJECT_DIR$/src/XMI.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uml.xsd" afterPath="$PROJECT_DIR$/src/uml.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="com.nomagic.cameo.metamodels.xmi.2_4_1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377871948966" ignored="false" />
-    <file path="/sysML_1_3_xmi.xml" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377918955471" ignored="false" />
+    <file path="/sysML_1_3_xmi.xml" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378772125113" ignored="false" />
     <file path="/foo.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377880124808" ignored="false" />
     <file path="/XMI.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378758014603" ignored="false" />
     <file path="/uml.xsd" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378598931081" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/f11dc60c_20110701.html" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1377901081555" ignored="false" />
-    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378606207750" ignored="false" />
+    <file path="/Dummy.txt" changelist="be8febca-391b-4389-a47d-8d015de3ce61" time="1378770373412" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="XMI.xsd" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="XMI.xsd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="335" column="68" selection-start="13975" selection-end="13975" vertical-scroll-proportion="-0.10958904">
+            <state line="420" column="4" selection-start="17550" selection-end="17550" vertical-scroll-proportion="-25.72">
               <folding>
                 <element signature="tag#xs:attributeGroup#0;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
@@ -119,17 +119,15 @@
                 <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
                 <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
-                <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uml.xsd" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="uml.xsd" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uml.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="107" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
+            <state line="44" column="55" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.4533582">
               <folding>
                 <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
               </folding>
@@ -151,7 +149,7 @@
       <file leaf-file-name="AMPSESF-TD.xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="48" selection-start="24396" selection-end="24407" vertical-scroll-proportion="-14.56">
+            <state line="302" column="30" selection-start="26471" selection-end="26479" vertical-scroll-proportion="-6.64">
               <folding />
             </state>
           </provider>
@@ -160,7 +158,7 @@
       <file leaf-file-name="sysML_1_3_xmi.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="43" selection-start="193" selection-end="216" vertical-scroll-proportion="-4.4">
+            <state line="5" column="56" selection-start="193" selection-end="229" vertical-scroll-proportion="-2.0754716">
               <folding />
             </state>
           </provider>
@@ -219,10 +217,10 @@
         <option value="$PROJECT_DIR$/src/xmi_2_4_1_from_sysML_1_3.xsd" />
         <option value="$PROJECT_DIR$/src/sysML_1_3_xmi.xsd" />
         <option value="$PROJECT_DIR$/src/foo.xsd" />
-        <option value="$PROJECT_DIR$/src/sysML_1_3_xmi.xml" />
         <option value="$PROJECT_DIR$/src/Infrastructure_2_4_xmi.xml" />
-        <option value="$PROJECT_DIR$/src/uml.xsd" />
         <option value="$PROJECT_DIR$/src/XMI.xsd" />
+        <option value="$PROJECT_DIR$/src/sysML_1_3_xmi.xml" />
+        <option value="$PROJECT_DIR$/src/uml.xsd" />
       </list>
     </option>
   </component>
@@ -481,7 +479,11 @@
       <created>1378606213969</created>
       <updated>1378606213969</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added connectorEnd support">
+      <created>1378770387053</created>
+      <updated>1378770387053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -557,7 +559,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a few more elements and attributes to support MagicDraw's serialization." />
+    <option name="LAST_COMMIT_MESSAGE" value="added connectorEnd support" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -577,6 +579,7 @@
     <MESSAGE value="Add details to accommodate UML's packageMerge elements." />
     <MESSAGE value="cleaned up the XSD to make EMF Ecore from XSD happy" />
     <MESSAGE value="added a few more elements and attributes to support MagicDraw's serialization." />
+    <MESSAGE value="added connectorEnd support" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -626,8 +629,6 @@
             <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -692,8 +693,6 @@
             <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,19 +727,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UML_2_4_xmi.xml">
+    <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="56" selection-start="77" selection-end="95" vertical-scroll-proportion="0.0">
+        <state line="302" column="30" selection-start="26471" selection-end="26479" vertical-scroll-proportion="-6.64">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uml.xsd">
+    <entry file="file://$PROJECT_DIR$/src/Infrastructure_2_4_xmi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="107" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
+        <state line="9623" column="68" selection-start="804981" selection-end="804981" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
+            <element signature="tag#packagedElement#16;tag#packagedElement#1;tag#uml:Package#0;tag#xmi:XMI#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="193" selection-end="229" vertical-scroll-proportion="-2.0754716">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -758,32 +764,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMPSESF-TD.xmi.xml">
+    <entry file="file://$PROJECT_DIR$/src/UML_2_4_xmi.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="48" selection-start="24396" selection-end="24407" vertical-scroll-proportion="-14.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Infrastructure_2_4_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9623" column="68" selection-start="804981" selection-end="804981" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#packagedElement#16;tag#packagedElement#1;tag#uml:Package#0;tag#xmi:XMI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sysML_1_3_xmi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="193" selection-end="216" vertical-scroll-proportion="-4.4">
+        <state line="1" column="56" selection-start="77" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/XMI.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="335" column="68" selection-start="13975" selection-end="13975" vertical-scroll-proportion="-0.10958904">
+        <state line="420" column="4" selection-start="17550" selection-end="17550" vertical-scroll-proportion="-25.72">
           <folding>
             <element signature="tag#xs:attributeGroup#0;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
@@ -825,8 +815,15 @@
             <element signature="tag#xs:sequence#0;tag#xs:complexType#31;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#32;tag#xs:schema#0" expanded="false" />
             <element signature="tag#xs:complexType#34;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
-            <element signature="tag#xs:choice#0;tag#xs:complexType#35;tag#xs:schema#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uml.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="55" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.4533582">
+          <folding>
+            <element signature="tag#xs:attributeGroup#1;tag#xs:schema#0" expanded="false" />
           </folding>
         </state>
       </provider>
