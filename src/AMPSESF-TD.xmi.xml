@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:Reports="http://www.magicdraw.com/schemas/Reports.xmi"
+         xmlns:Actual="http://www.magicdraw.com/schemas/Actual.xmi"
+         xmlns:Chores_Profile="http://www.magicdraw.com/schemas/Chores_Profile.xmi"
+         xmlns:Systems_View_Packages="http://www.magicdraw.com/schemas/Systems_View_Packages.xmi"
+         xmlns:uml="http://www.omg.org/spec/UML/20110701"
+         xmlns:Services_View_Packages="http://www.magicdraw.com/schemas/Services_View_Packages.xmi"
+         xmlns:DoDAF_Class_Library="http://www.magicdraw.com/schemas/DoDAF_Class_Library.xmi"
+         xmlns:StandardProfileL3="http://www.omg.org/spec/UML/20110701/StandardProfileL3"
+         xmlns:Dependency_Matrix_Profile="http://www.magicdraw.com/schemas/Dependency_Matrix_Profile.xmi"
+         xmlns:BPMN2_Profile="http://www.magicdraw.com/schemas/BPMN2_Profile.xmi"
+         xmlns:All_Views_Packages="http://www.magicdraw.com/schemas/All_Views_Packages.xmi"
+         xmlns:Utils="http://www.magicdraw.com/schemas/Utils.xmi"
+         xmlns:Project_View_Packages="http://www.magicdraw.com/schemas/Project_View_Packages.xmi"
+         xmlns:additional_stereotypes="http://www.magicdraw.com/schemas/additional_stereotypes.xmi"
+         xmlns:UPDM_Profile="http://www.omg.org/spec/UPDM/20120301"
+         xmlns:Standards_View="http://www.magicdraw.com/schemas/Standards_View.xmi"
+         xmlns:xmi="http://www.omg.org/spec/XMI/20110701"
+         xmlns:StandardProfileL2="http://www.omg.org/spec/UML/20110701/StandardProfileL2"
+         xmlns:Typical="http://www.magicdraw.com/schemas/Typical.xmi"
+         xmlns:Capability_View_Packages="http://www.magicdraw.com/schemas/Capability_View_Packages.xmi"
+         xmlns:Common="http://www.magicdraw.com/schemas/Common.xmi"
+         xmlns:sysml="http://www.omg.org/spec/SysML/20120401/SysML"
+         xmlns:Products="http://www.magicdraw.com/schemas/Products.xmi"
+         xmlns:OV_1="http://www.magicdraw.com/schemas/OV_1.xmi"
+         xmlns:Data_and_Information_View_Packages="http://www.magicdraw.com/schemas/Data_and_Information_View_Packages.xmi"
+         xmlns:Operational_View_Packages="http://www.magicdraw.com/schemas/Operational_View_Packages.xmi"
+         xmlns:Extra_stereotypes="http://www.magicdraw.com/schemas/Extra_stereotypes.xmi"
+         xmlns:Measurements="http://www.magicdraw.com/schemas/Measurements.xmi"
+         xmlns:Packages="http://www.magicdraw.com/schemas/Packages.xmi">
+   <xmi:Documentation>
+      <xmi:exporter>MagicDraw Clean XMI Exporter</xmi:exporter>
+      <xmi:exporterVersion>17.0.4</xmi:exporterVersion>
+   </xmi:Documentation>
+   <uml:Model xmi:type="uml:Model" xmi:id="eee_1045467100313_135436_1" name="Model">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_17_0_4_1_132c03d3_1378175096493_403171_51581"
+                    body="Author:lvanzandt.&#xA;Created:9/2/13 8:24 PM.&#xA;Title:.&#xA;Comment:.&#xA;">
+         <annotatedElement xmi:idref="eee_1045467100313_135436_1"/>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378237405395_975291_63287"
+                       name="AMPSESF-TD Collaboration Architecture">
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378175122358_346253_51585"
+                          name="Project Viewpoint">
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378175146780_159373_51588"
+                             name="Requirements Models">
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378227280091_305749_60615"
+                                name="Subcontractor Requirements for No Magic">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378175172636_560856_51589"
+                                   name="Shall Statements">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186771_243908_51746"
+                                      name="Requirement VEND-TASK1-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186870_762373_51753"
+                                      name="Requirement VEND-TASK1-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186876_286449_51759"
+                                      name="Requirement VEND-TASK1-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186882_589345_51765"
+                                      name="Requirement VEND-TASK1-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186887_80925_51771"
+                                      name="Requirement VEND-TASK1-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186892_224446_51777"
+                                      name="Requirement VEND-TASK1-060"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186896_571903_51783"
+                                      name="Requirement VEND-TASK1-070"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186901_402462_51789"
+                                      name="Requirement VEND-TASK1-080"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186907_955273_51795"
+                                      name="Requirement VEND-TASK1-090"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186913_181874_51801"
+                                      name="Requirement VEND-TASK1-100"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186918_531232_51807"
+                                      name="Requirement VEND-TASK2-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186924_663931_51813"
+                                      name="Requirement VEND-TASK2-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186930_109546_51819"
+                                      name="Requirement VEND-TASK2-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186936_718205_51825"
+                                      name="Requirement VEND-TASK2-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186942_595892_51831"
+                                      name="Requirement VEND-TASK2-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186948_882454_51837"
+                                      name="Requirement VEND-TASK2-060"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186954_857290_51843"
+                                      name="Requirement VEND-TASK2-070"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186960_113383_51849"
+                                      name="Requirement VEND-TASK2-080"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186966_895278_51855"
+                                      name="Requirement VEND-TASK2-090"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186972_667467_51861"
+                                      name="Requirement VEND-TASK2-100"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186978_879894_51867"
+                                      name="Requirement VEND-TASK2-110"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186983_87251_51873"
+                                      name="Requirement VEND-TASK2-120"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186989_715699_51879"
+                                      name="Requirement VEND-TASK2-130"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177186995_58610_51885"
+                                      name="Requirement VEND-TASK2-140"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187001_523002_51891"
+                                      name="Requirement VEND-TASK3-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187006_788231_51897"
+                                      name="Requirement VEND-TASK3-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187012_723079_51903"
+                                      name="Requirement VEND-TASK1-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187018_528109_51909"
+                                      name="Requirement VEND-TASK1-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187024_315634_51915"
+                                      name="Requirement VEND-TASK4-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187029_945154_51921"
+                                      name="Requirement VEND-TASK4-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187034_429868_51927"
+                                      name="Requirement VEND-TASK4-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187039_199040_51933"
+                                      name="Requirement VEND-TASK4-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187045_317491_51939"
+                                      name="Requirement VEND-TASK4-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187049_850201_51945"
+                                      name="Requirement VEND-TASK4-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187053_636614_51951"
+                                      name="Requirement VEND-TASK5-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187056_72446_51957"
+                                      name="Requirement VEND-TASK5-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187059_149923_51963"
+                                      name="Requirement VEND-TASK5-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187064_90931_51969"
+                                      name="Requirement VEND-TASK5-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187068_828681_51975"
+                                      name="Requirement VEND-TASK6-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187072_306270_51981"
+                                      name="Requirement VEND-TASK6-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187076_816009_51987"
+                                      name="Requirement VEND-TASK6-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187079_199366_51993"
+                                      name="Requirement VEND-TASK6-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187084_758577_51999"
+                                      name="Requirement VEND-TASK7-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187089_839074_52005"
+                                      name="Requirement VEND-TASK7-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187093_665243_52011"
+                                      name="Requirement VEND-TASK8-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187098_636089_52017"
+                                      name="Requirement VEND-TASK8-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187103_694347_52023"
+                                      name="Requirement VEND-TASK8-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187106_901518_52029"
+                                      name="Requirement VEND-TASK8-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187110_108267_52035"
+                                      name="Requirement VEND-TASK8-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187113_777342_52041"
+                                      name="Requirement VEND-TASK8-060"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187116_64526_52047"
+                                      name="Requirement VEND-TASK8-070"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187119_208564_52053"
+                                      name="Requirement VEND-TASK8-080"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187122_937146_52059"
+                                      name="Requirement VEND-TASK2-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187125_823077_52065"
+                                      name="Requirement VEND-TASK2-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187128_480096_52071"
+                                      name="Requirement VEND-TASK8-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187132_875370_52077"
+                                      name="Requirement VEND-TASK9-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187136_356632_52083"
+                                      name="Requirement VEND-TASK8-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187139_793939_52089"
+                                      name="Requirement VEND-TASK8-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187143_363930_52095"
+                                      name="Requirement VEND-OPER-010"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187146_349850_52101"
+                                      name="Requirement VEND-OPER-020"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187149_81904_52107"
+                                      name="Requirement VEND-OPER-030"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187152_35143_52113"
+                                      name="Requirement VEND-OPER-040"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187155_668186_52119"
+                                      name="Requirement VEND-OPER-050"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187159_904863_52125"
+                                      name="Requirement VEND-OPER-060"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187163_108233_52131"
+                                      name="Requirement VEND-OPER-070"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187168_895221_52137"
+                                      name="Requirement VEND-OPER-080"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187172_410123_52143"
+                                      name="Requirement VEND-OPER-090"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187176_483007_52149"
+                                      name="Requirement VEND-OPER-100"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187180_8066_52155"
+                                      name="Requirement VEND-OPER-110"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187183_497597_52161"
+                                      name="Requirement VEND-OPER-120"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187186_6804_52167"
+                                      name="Requirement VEND-OPER-130"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187191_936976_52173"
+                                      name="Requirement VEND-OPER-140"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187196_860968_52179"
+                                      name="Requirement VEND-OPER-150"/>
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378177187200_772973_52185"
+                                      name="Requirement VEND-OPER-160"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378226966493_784347_60334"
+                                   name="Tables"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378240065368_656278_81424"
+                             name="Collaboration Notes">
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378240081831_348463_81425"
+                                name="2013">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378240093624_310569_81426"
+                                   name="[09] September"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378243865731_128306_97684"
+                             name="CACI No Magic AMPSESF-TD Timeline">
+               <packagedElement xmi:type="uml:LiteralString"
+                                xmi:id="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                name="Project Launch 03 September 2013"
+                                value="2013-09-03T15:30:46-07:00"/>
+               <packagedElement xmi:type="uml:LiteralString"
+                                xmi:id="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                name="Ecosystem Deliverable 03 September 2013"
+                                value="2013-09-03T23:59:59-07:00"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378333291586_431926_105500"
+                             name="PV-1 Team Projects">
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378333334810_38319_105538"
+                                name="Strategic Elicitation and Capture"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378333365393_966718_105563"
+                                name="Operational Elicitation and Capture"/>
+               <packagedElement xmi:type="uml:InstanceSpecification"
+                                xmi:id="_17_0_4_1_132c03d3_1378333403449_38176_105588"
+                                name="Capture AMPSESF-TD Strategy from Technical and Management Proposal">
+                  <classifier xmi:idref="_17_0_4_1_132c03d3_1378333334810_38319_105538"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378334750209_583118_110475"
+                                name="As-Is Systems Elicitation and Capture"/>
+               <packagedElement xmi:type="uml:InstanceSpecification"
+                                xmi:id="_17_0_4_1_132c03d3_1378334777520_12338_110497"
+                                name="Capture AMPSESF-TD As-Is Resources from Technical and Management Proposal">
+                  <classifier xmi:idref="_17_0_4_1_132c03d3_1378334750209_583118_110475"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:InstanceSpecification"
+                                xmi:id="_17_0_4_1_132c03d3_1378335152243_136174_110516"
+                                name="Capture AMPSESF-TD Operational Scenarios from MPS TD High-Level Demonstration Scenarios">
+                  <classifier xmi:idref="_17_0_4_1_132c03d3_1378333365393_966718_105563"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378335492331_700677_110608"
+                                name="Sought Services Elicitation and Capture"/>
+               <packagedElement xmi:type="uml:InstanceSpecification"
+                                xmi:id="_17_0_4_1_132c03d3_1378335523053_928506_110630"
+                                name="Capture AMPSESF-TD Sought Services from Technical and Management Proposal">
+                  <classifier xmi:idref="_17_0_4_1_132c03d3_1378335492331_700677_110608"/>
+               </packagedElement>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378218279075_530879_52681"
+                          name="Operational Viewpoint"/>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378246378707_195746_97904"
+                          name="Systems Viewpoint">
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378246403844_179269_97906"
+                             name="SV-2 Available Systems">
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378346995609_263321_124956"
+                                name="SV-2 Guidance Documentation">
+                  <packagedElement xmi:type="uml:InstanceSpecification"
+                                   xmi:id="_17_0_4_1_132c03d3_1378337146469_325643_110901"
+                                   name="CACI AMPSESF-TD SharePoint Repository">
+                     <classifier xmi:idref="_17_0_4_1_132c03d3_1378337084135_880602_110841"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378337084135_880602_110841"
+                                   name="SharePoint Repository"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378336756238_219707_110763"
+                                   name="MPS EHR TD  Government Kick Off September 2013 09032013"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378346039087_104251_114574"
+                                   name="Medical Pre-Screening &#xA;Technical Demonstration (MPS TD) High-Level Demonstration Scenarios"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378336885201_44336_110789"
+                                   name="Volume 1: Technical and Management Proposal for From Accessioning Medical Pre-Screening to EHR SOA Foundation"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378337072231_768236_110815"
+                                   name="SharePoint Server">
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_4_1_132c03d3_1378337111864_672776_110872"
+                                     visibility="private"
+                                     aggregation="shared"
+                                     type="_17_0_4_1_132c03d3_1378337084135_880602_110841"
+                                     association="_17_0_4_1_132c03d3_1378337111864_991140_110871"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_17_0_4_1_132c03d3_1378337111864_991140_110871">
+                     <memberEnd xmi:idref="_17_0_4_1_132c03d3_1378337111864_672776_110872"/>
+                     <memberEnd xmi:idref="_17_0_4_1_132c03d3_1378337111866_977095_110873"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_4_1_132c03d3_1378337111866_977095_110873"
+                               visibility="private"
+                               type="_17_0_4_1_132c03d3_1378337072231_768236_110815"
+                               association="_17_0_4_1_132c03d3_1378337111864_991140_110871"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378397694666_643109_90135"
+                                   name="Performance Work Statement"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_4_1_132c03d3_1378347054352_275761_124962"
+                                name="SV-2 Enterprise Architecture Tools">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378349289697_473703_138559"
+                                   name="Cameo Enterprise Architecture Enterprise Edition">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_17_0_4_1_132c03d3_1378350258514_585985_138774"
+                                   body="A single modeling environment for the specification of Enterprise Architecture Descriptions containing UML, SysML, BPMN, SoaML, and UPDM notations. Offers model simulation capabilities and rich extensibility via report scripting, tool macros, plugins, and APIs for Java, jRuby, Groovy, Javascript, and jPython programmatic access.">
+                        <annotatedElement xmi:idref="_17_0_4_1_132c03d3_1378349289697_473703_138559"/>
+                     </ownedComment>
+                     <generalization xmi:type="uml:Generalization"
+                                     xmi:id="_17_0_4_1_132c03d3_1378349349234_416148_138609"
+                                     general="_17_0_4_1_132c03d3_1378349317584_759922_138585"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378347933106_836847_125127"
+                                   name="Eclipse IDE">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_17_0_4_1_132c03d3_1378348100307_558228_125173"
+                                   body="Eclipse is a multi-language Integrated development environment (IDE) comprising a base workspace and an extensible plug-in system for customizing the environment. It is written mostly in Java. It can be used to develop applications in Java and, by means of various plug-ins, other programming languages including Ada, C, C++, COBOL, Fortran, Haskell, JavaScript, Perl, PHP, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang.">
+                        <annotatedElement xmi:idref="_17_0_4_1_132c03d3_1378347933106_836847_125127"/>
+                     </ownedComment>
+                     <generalization xmi:type="uml:Generalization"
+                                     xmi:id="_17_0_4_1_132c03d3_1378349708590_900398_138772"
+                                     general="_17_0_4_1_132c03d3_1378349704685_191114_138748"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378349704685_191114_138748"
+                                   name="Programmers' Integrated Development Environment"
+                                   isAbstract="true"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378349317584_759922_138585"
+                                   name="Enterprise Architecture Modeling Suite"
+                                   isAbstract="true"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_4_1_132c03d3_1378382510445_664191_145458"
+                                   name="IntelliJ IDEA">
+                     <generalization xmi:type="uml:Generalization"
+                                     xmi:id="_17_0_4_1_132c03d3_1378382528437_714015_145482"
+                                     general="_17_0_4_1_132c03d3_1378349704685_191114_138748"/>
+                  </packagedElement>
+               </packagedElement>
+            </packagedElement>
+         </packagedElement>
+      </packagedElement>
+   </uml:Model>
+   <Extra_stereotypes:TimeLine xmi:id="_17_0_4_1_132c03d3_1378243865732_752876_97685"
+                               base_Package="_17_0_4_1_132c03d3_1378243865731_128306_97684"/>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378349289697_201048_138560"
+                          base_Class="_17_0_4_1_132c03d3_1378349289697_473703_138559"/>
+   <UPDM_Profile:TechnicalStandard xmi:id="_17_0_4_1_132c03d3_1378397694666_510046_90136"
+                                   base_Class="_17_0_4_1_132c03d3_1378397694666_643109_90135"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187184_753707_52162"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187183_497597_52161"
+                                                   Text="Types of &#34;Projects&#34; to be performed during the Period of Performance, their milestone sets, and their estimated durations of calendar time SHALL be documented in the PV-1, PV-2, and PV-3 Project Views of the Program's UPDM Enterprise Architecture model."
+                                                   Id="CACI-VEND-12">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Packages:Project_Viewpoint xmi:id="_17_0_4_1_132c03d3_1378175122360_752564_51586"
+                               base_Package="_17_0_4_1_132c03d3_1378175122358_346253_51585"/>
+   <UPDM_Profile:Viewpoint xmi:id="_17_0_4_1_132c03d3_1378175122360_752564_51586application1"
+                           base_Package="_17_0_4_1_132c03d3_1378175122358_346253_51585"/>
+   <UPDM_Profile:ISO8601DateTime xmi:id="_17_0_4_1_132c03d3_1378243839397_70898_97683"
+                                 base_LiteralString="_17_0_4_1_132c03d3_1378243839396_806174_97682"/>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378349704686_97813_138749"
+                          base_Class="_17_0_4_1_132c03d3_1378349704685_191114_138748"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187002_32701_51892"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187001_523002_51891"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for reference to applicable Architecture Frameworks and for the modeling of the current and sought Operational and Physical Architectures of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-45">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186956_326260_51844"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186954_857290_51843"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in SysML 1.3 Sequence Diagrams."
+                                                   Id="CACI-VEND-37">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186898_958305_51784"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186896_571903_51783"
+                                                   Text="This ecosystem SHALL persist its Architecture Descriptions in the modeling file format XMI 2.1."
+                                                   Id="CACI-VEND-25"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378347933106_618216_125128"
+                          base_Class="_17_0_4_1_132c03d3_1378347933106_836847_125127"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186973_756948_51862"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186972_667467_51861"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in BPMN 2 Diagrams."
+                                                   Id="CACI-VEND-40">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187104_740564_52024"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187103_694347_52023"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 Sequence Diagrams."
+                                                   Id="CACI-VEND-67">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186915_10454_51802"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186913_181874_51801"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the modeling of the current and sought strategic Capabilities of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-28"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Assigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InProgress</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186997_294994_51886"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186995_58610_51885"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative execution and simulation of Enterprise Architecture descriptions, particularly for the modeling of the current and sought Operational aspects of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-44">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Systems_View_Packages:SV_2_Package xmi:id="_17_0_4_1_132c03d3_1378347054354_811881_124963"
+                                       base_Package="_17_0_4_1_132c03d3_1378347054352_275761_124962"/>
+   <UPDM_Profile:View xmi:id="_17_0_4_1_132c03d3_1378347054354_811881_124963application1"
+                      base_Package="_17_0_4_1_132c03d3_1378347054352_275761_124962"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187169_263270_52138"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187168_895221_52137"
+                                                   Text="The primary collaboration facility and repository of information related to the AMPSESF-TD Program SHALL be the modeling ecosystem itself and one or more Enterprise Architecture models stored within the modeling ecosystem."
+                                                   Id="CACI-VEND-8">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187165_371277_52132"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187163_108233_52131"
+                                                   Text="No Magic staff contributing to the AMPSESF-TD Program SHALL work primarily within No Magic facilities or in virtual telecommuting offices; contracted on-site work is not precluded and is anticipated."
+                                                   Id="CACI-VEND-7">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378349317585_853409_138586"
+                          base_Class="_17_0_4_1_132c03d3_1378349317584_759922_138585"/>
+   <Systems_View_Packages:SV_2_Package xmi:id="_17_0_4_1_132c03d3_1378346995611_697979_124957"
+                                       base_Package="_17_0_4_1_132c03d3_1378346995609_263321_124956"/>
+   <UPDM_Profile:View xmi:id="_17_0_4_1_132c03d3_1378346995611_697979_124957application1"
+                      base_Package="_17_0_4_1_132c03d3_1378346995609_263321_124956"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187120_731887_52054"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187119_208564_52053"
+                                                   Text="This ecosystem SHALL enable architects to specify structural specifications stated in UPDM 2.1 SV-2 Diagrams."
+                                                   Id="CACI-VEND-73">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Systems_View_Packages:SV_2_Package xmi:id="_17_0_4_1_132c03d3_1378246403845_266464_97907"
+                                       base_Package="_17_0_4_1_132c03d3_1378246403844_179269_97906"/>
+   <UPDM_Profile:View xmi:id="_17_0_4_1_132c03d3_1378246403845_266464_97907application1"
+                      base_Package="_17_0_4_1_132c03d3_1378246403844_179269_97906"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186980_932087_51868"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186978_879894_51867"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UPDM 2.1 Activity Diagrams."
+                                                   Id="CACI-VEND-41">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:FieldedCapability xmi:id="_17_0_4_1_132c03d3_1378337178760_360114_110913"
+                                   base_InstanceSpecification="_17_0_4_1_132c03d3_1378337146469_325643_110901"/>
+   <Products:SV_2 xmi:id="_17_0_4_1_132c03d3_1378336058715_386132_110737application1"
+                  base_Diagram="_17_0_4_1_132c03d3_1378336058703_292175_110726"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187126_325201_52066"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187125_823077_52065"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute functional behavioral specifications stated in UPDM 2.1 SV-10 Diagrams."
+                                                   Id="CACI-VEND-31">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187129_198730_52072"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187128_480096_52071"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the specification of the Physical Architecture, Systems Views of AMPSESF-TD systems."
+                                                   Id="CACI-VEND-66">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186938_154263_51826"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186936_718205_51825"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 Sequence Diagrams."
+                                                   Id="CACI-VEND-34">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187061_752816_51964"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187059_149923_51963"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of documentation required throughout the Systems Development Lifecycle (SDLC) of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-55">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187137_247857_52084"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187136_356632_52083"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the presentation of Architectural Descriptions to the general stakeholders of AMPSESF-TD systems."
+                                                   Id="CACI-VEND-64">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378337084135_762239_110842"
+                          base_Class="_17_0_4_1_132c03d3_1378337084135_880602_110841"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186775_111653_51747"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186771_243908_51746"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the modeling of the current and sought strategic Capabilities of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-17"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Assigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InProgress</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187047_177201_51940"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187045_317491_51939"
+                                                   Text="This ecosystem SHALL enable architects to generate Requirements traceability reports within the model and within Excel, Word, and Powerpoint."
+                                                   Id="CACI-VEND-50">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:ProjectType xmi:id="_17_0_4_1_132c03d3_1378334750211_95951_110476"
+                             base_Class="_17_0_4_1_132c03d3_1378334750209_583118_110475"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186932_417263_51820"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186930_109546_51819"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 Activity Diagrams."
+                                                   Id="CACI-VEND-32">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <additional_stereotypes:RequirementTable xmi:id="_17_0_4_1_132c03d3_1378243707854_357068_97340application1"
+                                            base_Diagram="_17_0_4_1_132c03d3_1378243707774_429589_97325"/>
+   <additional_stereotypes:RequirementTable xmi:id="_17_0_4_1_132c03d3_1378228897436_202602_60684application1"
+                                            base_Diagram="_17_0_4_1_132c03d3_1378228897335_819098_60669"/>
+   <UPDM_Profile:ProjectType xmi:id="_17_0_4_1_132c03d3_1378335492332_954587_110609"
+                             base_Class="_17_0_4_1_132c03d3_1378335492331_700677_110608"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187123_404724_52060"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187122_937146_52059"
+                                                   Text="This ecosystem SHALL enable architects to specify functional behavioral specifications stated in UPDM 2.1 SV-4 Diagrams."
+                                                   Id="CACI-VEND-33">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:ArchitecturalDescription xmi:id="_17_0_4_1_132c03d3_1378237518627_571647_63424"
+                                          base_Package="_17_0_4_1_132c03d3_1378237405395_975291_63287"
+                                          toBe="false"
+                                          architectureFramework="DoDAF 2.0">
+      <architect>Thomas Mielke
+Gene Eldridge
+Manfred Koethe
+Lonnie VanZandt</architect>
+      <creatingOrganization>CACI</creatingOrganization>
+      <purpose>Describes the Motivation and Enterprise of the corps of Enterprise Architects, Systems Engineers, and Software Developers responsible for specifying and implementing the AMPSESF Technology Demonstration enterprise and its services.</purpose>
+      <toolsUsed>Cameo Enterprise Architecture v17.0.4</toolsUsed>
+   </UPDM_Profile:ArchitecturalDescription>
+   <UPDM_Profile:System xmi:id="_17_0_4_1_132c03d3_1378337072232_935198_110816"
+                        base_Class="_17_0_4_1_132c03d3_1378337072231_768236_110815"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186893_514347_51778"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186892_224446_51777"
+                                                   Text="This ecosystem SHALL enable the Enterprise Architect to craft an integrated Architecture Description that contains any to all of the offered notations within a single User Interface session."
+                                                   Id="CACI-VEND-24"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Software xmi:id="_17_0_4_1_132c03d3_1378382510446_577732_145459"
+                          base_Class="_17_0_4_1_132c03d3_1378382510445_664191_145458"/>
+   <UPDM_Profile:ISO8601DateTime xmi:id="_17_0_4_1_132c03d3_1378244325612_891984_97736"
+                                 base_LiteralString="_17_0_4_1_132c03d3_1378244325610_227187_97735"/>
+   <Products:SV_2 xmi:id="_17_0_4_1_132c03d3_1378347258699_27304_124977application1"
+                  base_Diagram="_17_0_4_1_132c03d3_1378347258688_412058_124966"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187153_48593_52114"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187152_35143_52113"
+                                                   Text="All labor by No Magic staff for which No Magic expects compensation SHALL only be performed by No Magic staff who have been approved by CACI to support the AMPSESF-TD program; this does not preclude No Magic from contributing additional uncompensated labor."
+                                                   Id="CACI-VEND-4">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187144_855367_52096"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187143_363930_52095"
+                                                   Text="All labor by No Magic staff for which No Magic expects compensation SHALL only be performed by No Magic staff who have been approved by CACI to support the AMPSESF-TD program; this does not preclude No Magic from contributing additional uncompensated labor."
+                                                   Id="CACI-VEND-1">
+      <LifeState>New</LifeState>
+      <AssignedState>Unassigned</AssignedState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Project xmi:id="_17_0_4_1_132c03d3_1378335152245_361688_110517"
+                         base_InstanceSpecification="_17_0_4_1_132c03d3_1378335152243_136174_110516"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186944_434131_51832"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186942_595892_51831"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 State Diagrams."
+                                                   Id="CACI-VEND-35">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187114_89893_52042"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187113_777342_52041"
+                                                   Text="This ecosystem SHALL enable architects to specify structural specifications stated in SysML 1.3 Block Diagrams."
+                                                   Id="CACI-VEND-71">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Project xmi:id="_17_0_4_1_132c03d3_1378335523055_821497_110631"
+                         base_InstanceSpecification="_17_0_4_1_132c03d3_1378335523053_928506_110630"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187054_313899_51952"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187053_636614_51951"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of documentation required throughout the Systems Development Lifecycle (SDLC) of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-53">
+      <LifeState>New</LifeState>
+      <AssignedState>Unassigned</AssignedState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187161_701258_52126"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187159_904863_52125"
+                                                   Text="No Magic staff contributing to the AMPSESF-TD Program SHALL be competent users of the applicable modeling software ecosystem."
+                                                   Id="CACI-VEND-6">
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186968_585724_51856"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186966_895278_51855"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute mathematical specifications stated in SysML 1.3 Parametric Diagrams."
+                                                   Id="CACI-VEND-39">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187108_971581_52030"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187106_901518_52029"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 State Diagrams."
+                                                   Id="CACI-VEND-69">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187065_349652_51970"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187064_90931_51969"
+                                                   Text="CACI and No Magic staff SHALL provide at least 3 templates for the automated generation of documentation required throughout the Systems Development Lifecycle (SDLC) of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-56">
+      <ProgressState>NotYetStarted</ProgressState>
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:ProjectType xmi:id="_17_0_4_1_132c03d3_1378333334810_887127_105539"
+                             base_Class="_17_0_4_1_132c03d3_1378333334810_38319_105538"/>
+   <UPDM_Profile:ArchitecturalDescription xmi:id="_17_0_4_1_132c03d3_1378175096493_396396_51579"
+                                          base_Package="eee_1045467100313_135436_1"
+                                          toBe="true"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186889_967566_51772"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186887_80925_51771"
+                                                   Text="This ecosystem SHALL offer the modeling notation UPDM 2.1."
+                                                   Id="CACI-VEND-23"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187150_737770_52108"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187149_81904_52107"
+                                                   Text="The No Magic Program Manager SHALL provide to CACI a resume of each No Magic employee or partner for consideration of one or more team member roles within 10 days of the related request from CACI."
+                                                   Id="CACI-VEND-3">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186884_604524_51766"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186882_589345_51765"
+                                                   Text="This ecosystem SHALL offer the modeling notation BPMN 2."
+                                                   Id="CACI-VEND-21"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187193_392533_52174"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187191_936976_52173"
+                                                   Text="To validate the suitability and robustness of incremental releases of ecosystem software, when necessary No Magic SHALL provide 30-day evaluation licenses for all applicable tools for which it has licensing authority."
+                                                   Id="CACI-VEND-14">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Packages:Operational_Viewpoint xmi:id="_17_0_4_1_132c03d3_1378218279075_130647_52682"
+                                   base_Package="_17_0_4_1_132c03d3_1378218279075_530879_52681"/>
+   <UPDM_Profile:Viewpoint xmi:id="_17_0_4_1_132c03d3_1378218279075_130647_52682application1"
+                           base_Package="_17_0_4_1_132c03d3_1378218279075_530879_52681"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187147_141196_52102"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187146_349850_52101"
+                                                   Text="Information related to the AMPSESF-TD program SHALL be restricted to individuals granted Need to Know access as negotiated by the Program Managers of CACI and No Magic; while information is not anticipated to be of a Classified or Sensitive nature, certain materials might have NOFORN or ITAR restriction."
+                                                   Id="CACI-VEND-2">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Products:PV_1 xmi:id="_17_0_4_1_132c03d3_1378333318558_354013_105513application1"
+                  base_Diagram="_17_0_4_1_132c03d3_1378333318546_480160_105502"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187095_991260_52012"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187093_665243_52011"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the specification of the Physical Architecture, Systems Views of AMPSESF-TD systems."
+                                                   Id="CACI-VEND-63">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187181_652154_52156"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187180_8066_52155"
+                                                   Text="Scope additions SHALL be managed by negotiating each additional capability and by recording negotiated capabilities within the Capability Views of the program's Enterprise Architecture model; No Magic, at its discretion, may elect to decline to perform new expectations for capabilities that are not appropriately negotiated and recorded without breaching the contract."
+                                                   Id="CACI-VEND-11">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187070_392061_51976"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187068_828681_51975"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of ontological representations of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-57">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187008_112443_51898"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187006_788231_51897"
+                                                   Text="This ecosystem SHALL support references to and content from the Department of Defense Architecture Framework 2.0.2."
+                                                   Id="CACI-VEND-46">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186903_888897_51790"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186901_402462_51789"
+                                                   Text="This ecosystem SHALL persist its Architecture Descriptions in the modeling file format XPDL."
+                                                   Id="CACI-VEND-26"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187197_407248_52180"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187196_860968_52179"
+                                                   Text="No Magic SHALL retain the right to limit all evaluation licenses to under 60-days for all applicable tools for which it has licensing authority."
+                                                   Id="CACI-VEND-15">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Packages:Systems_Viewpoint xmi:id="_17_0_4_1_132c03d3_1378246378708_534582_97905"
+                               base_Package="_17_0_4_1_132c03d3_1378246378707_195746_97904"/>
+   <UPDM_Profile:Viewpoint xmi:id="_17_0_4_1_132c03d3_1378246378708_534582_97905application1"
+                           base_Package="_17_0_4_1_132c03d3_1378246378707_195746_97904"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187177_181597_52150"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187176_483007_52149"
+                                                   Text="Composition of the CACI and the No Magic teams, the necessary Competencies of team roles, and the Skills of actual individuals for contributors to the AMPSESF-TD Program SHALL be captured as Enterprise Architecture Operational OV-4 Typical types and Actual instances in a UPDM Enterprise Architecture model."
+                                                   Id="CACI-VEND-10">
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:TechnicalStandard xmi:id="_17_0_4_1_132c03d3_1378336885201_571500_110790"
+                                   base_Class="_17_0_4_1_132c03d3_1378336885201_44336_110789"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186985_233208_51874"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186983_87251_51873"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UPDM 2.1 Sequence Diagrams."
+                                                   Id="CACI-VEND-42">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187086_403423_52000"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187084_758577_51999"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of scripts for the build, deployment, and test of instantiated AMPSESF-TD systems."
+                                                   Id="CACI-VEND-61">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187014_204409_51904"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187012_723079_51903"
+                                                   Text="This ecosystem SHALL support references to and content from the OASIS SoaML 1.0.1."
+                                                   Id="CACI-VEND-20"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187111_10379_52036"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187110_108267_52035"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UML 2.4 Activity Diagrams."
+                                                   Id="CACI-VEND-70">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Extra_stereotypes:ResourceAssociation xmi:id="_17_0_4_1_132c03d3_1378337111866_935772_110874"
+                                          base_Association="_17_0_4_1_132c03d3_1378337111864_991140_110871"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187036_537435_51928"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187034_429868_51927"
+                                                   Text="This ecosystem SHALL enable architects to specify Requirements specifications in SysML 1.3 Requirements Diagrams."
+                                                   Id="CACI-VEND-48">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:ProjectType xmi:id="_17_0_4_1_132c03d3_1378333365394_907385_105564"
+                             base_Class="_17_0_4_1_132c03d3_1378333365393_966718_105563"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187077_933387_51988"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187076_816009_51987"
+                                                   Text="This ecosystem SHALL export user-selected portions of its Architecture Descriptions in the ontology file format OWL 2."
+                                                   Id="CACI-VEND-60">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186909_484844_51796"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186907_955273_51795"
+                                                   Text="This ecosystem SHALL accommodate contemporaneous access to individual projects that are collaboratively shared with ten or more model authors."
+                                                   Id="CACI-VEND-27"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187117_338491_52048"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187116_64526_52047"
+                                                   Text="This ecosystem SHALL enable architects to specify structural interface specifications stated in SysML 1.3 Internal Block Diagrams."
+                                                   Id="CACI-VEND-72">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Project xmi:id="_17_0_4_1_132c03d3_1378333403449_47929_105589"
+                         base_InstanceSpecification="_17_0_4_1_132c03d3_1378333403449_38176_105588"/>
+   <UPDM_Profile:TechnicalStandard xmi:id="_17_0_4_1_132c03d3_1378336756238_576823_110764"
+                                   base_Class="_17_0_4_1_132c03d3_1378336756238_219707_110763"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187050_375740_51946"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187049_850201_51945"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the specification of Requirements' &#34;SHALL&#34; statements and the relationships between those requirements and architecture elements of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-51">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187133_440855_52078"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187132_875370_52077"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the presentation of Architectural Descriptions to the general stakeholders of AMPSESF-TD systems."
+                                                   Id="CACI-VEND-74">
+      <LifeState>New</LifeState>
+      <AssignedState>Unassigned</AssignedState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186991_336271_51880"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186989_715699_51879"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in UPDM 2.1 State Diagrams."
+                                                   Id="CACI-VEND-43">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:Project xmi:id="_17_0_4_1_132c03d3_1378334777521_20998_110498"
+                         base_InstanceSpecification="_17_0_4_1_132c03d3_1378334777520_12338_110497"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187202_144061_52186"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187200_772973_52185"
+                                                   Text="To validate the suitability and robustness of incremental releases of ecosystem software, CACI SHALL provide &#34;sandbox&#34; servers with both the current releases and the patch updates of the modeling ecosystem software."
+                                                   Id="CACI-VEND-16">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186926_33060_51814"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186924_663931_51813"
+                                                   Text="This ecosystem SHALL offer the modeling foundation fUML 1.1."
+                                                   Id="CACI-VEND-30">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:TechnicalStandard xmi:id="_17_0_4_1_132c03d3_1378346039088_260121_114575"
+                                   base_Class="_17_0_4_1_132c03d3_1378346039087_104251_114574"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187025_964227_51916"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187024_315634_51915"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for reference to applicable Architecture Frameworks and for the modeling of the current and sought Operational and Physical Architectures of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-52">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187188_516532_52168"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187186_6804_52167"
+                                                   Text="CACI SHALL provide secure, authenticated remote access to user-specific, pre-configured Linux or Windows Virtual Machine &#34;workstations&#34; with all necessary modeling ecosystem software purchased, licensed, installed, and validated for operation."
+                                                   Id="CACI-VEND-13">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187081_294679_51994"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187079_199366_51993"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of ontological representations of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-59">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187041_818016_51934"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187039_199040_51933"
+                                                   Text="This ecosystem SHALL enable architects to specify Requirements relationships in SysML 1.3 Dependency Matrices."
+                                                   Id="CACI-VEND-49">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187057_817612_51958"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187056_72446_51957"
+                                                   Text="This ecosystem SHALL offer one or more capabilities for automated model-based document generation."
+                                                   Id="CACI-VEND-54">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187157_232269_52120"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187155_668186_52119"
+                                                   Text="No Magic SHALL negotiate any and all labor rates and any changes in those rates with CACI; requests for compensation based on unilaterally modified rates will be rejected."
+                                                   Id="CACI-VEND-5">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187174_590699_52144"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187172_410123_52143"
+                                                   Text="Performance Capabilities required of No Magic during the Period of Performance of the AMPSESF-TD Program SHALL be captured as Enterprise Architecture Capabilities and as SysML Requirements in a UPDM Enterprise Architecture model."
+                                                   Id="CACI-VEND-9">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186872_862192_51754"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186870_762373_51753"
+                                                   Text="This ecosystem SHALL offer the modeling notation UML 2.4."
+                                                   Id="CACI-VEND-18"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186962_489274_51850"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186960_113383_51849"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in SysML 1.3 State Diagrams."
+                                                   Id="CACI-VEND-38">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187031_983135_51922"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187029_945154_51921"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the specification of Requirements' &#34;SHALL&#34; statements and the relationships between those requirements and architecture elements of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-47">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187090_255553_52006"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187089_839074_52005"
+                                                   Text="No Magic staff SHALL provide at least 40 hours of mentoring and peer consultation in the collaborative specification and analysis of Enterprise Architecture descriptions, particularly for the automated generation of scripts for the build, deployment, and test of instantiated AMPSESF-TD systems."
+                                                   Id="CACI-VEND-62">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <additional_stereotypes:RequirementTable xmi:id="_17_0_4_1_132c03d3_1378265776915_466174_101198application1"
+                                            base_Diagram="_17_0_4_1_132c03d3_1378265776835_464463_101183"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186950_301963_51838"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186948_882454_51837"
+                                                   Text="This ecosystem SHALL enable architects to specify and execute behavioral specifications stated in SysML 1.3 Activity Diagrams."
+                                                   Id="CACI-VEND-36">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187141_220193_52090"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187139_793939_52089"
+                                                   Text="No Magic staff SHALL participate in at least 1 presentation of Architectural Descriptions to the general stakeholders of AMPSESF-TD systems for each month of the contracted period of performance."
+                                                   Id="CACI-VEND-68">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Project_View_Packages:PV_1_Package xmi:id="_17_0_4_1_132c03d3_1378333291588_235426_105501"
+                                       base_Package="_17_0_4_1_132c03d3_1378333291586_431926_105500"/>
+   <UPDM_Profile:View xmi:id="_17_0_4_1_132c03d3_1378333291588_235426_105501application1"
+                      base_Package="_17_0_4_1_132c03d3_1378333291586_431926_105500"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187020_25_51910"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187018_528109_51909"
+                                                   Text="This ecosystem SHALL support references to and content from the Federal Enterprise Architecture 2.3."
+                                                   Id="CACI-VEND-22"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <additional_stereotypes:RequirementTable xmi:id="_17_0_4_1_132c03d3_1378177211922_689161_52192application1"
+                                            base_Diagram="_17_0_4_1_132c03d3_1378177211913_37601_52191"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187100_566084_52018"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187098_636089_52017"
+                                                   Text="This ecosystem SHALL enable architects to specify structural specifications stated in UML 2.4 Class Diagrams."
+                                                   Id="CACI-VEND-65">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <UPDM_Profile:ResourceRole xmi:id="_17_0_4_1_132c03d3_1378337111921_673767_110882"
+                              base_Property="_17_0_4_1_132c03d3_1378337111864_672776_110872"
+                              roleKind="Hosted Software"/>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186920_885570_51808"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186918_531232_51807"
+                                                   Text="No Magic staff SHALL provide for purchase and installation an ecosystem of software tools for the collaborative execution and simulation of Enterprise Architecture descriptions, particularly for the modeling of the current and sought Operational aspects of the AMPSESF-TD systems."
+                                                   Id="CACI-VEND-29">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177187073_547971_51982"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177187072_306270_51981"
+                                                   Text="This ecosystem SHALL export user-selected portions of its Architecture Descriptions in the modeling file format XMI 2.1."
+                                                   Id="CACI-VEND-58">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>New</LifeState>
+      <ProgressState>NotYetStarted</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>NotReadyForCurating</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+   <Chores_Profile:Assignable_Business_Requirement xmi:id="_17_0_4_1_132c03d3_1378177186879_524470_51760"
+                                                   base_Class="_17_0_4_1_132c03d3_1378177186876_286449_51759"
+                                                   Text="This ecosystem SHALL offer the modeling notation SysML 1.3."
+                                                   Id="CACI-VEND-19"
+                                                   Due="_17_0_4_1_132c03d3_1378243839396_806174_97682"
+                                                   Delivered="_17_0_4_1_132c03d3_1378244325610_227187_97735"
+                                                   StatusChanged="_17_0_4_1_132c03d3_1378243839396_806174_97682">
+      <AssignedState>Unassigned</AssignedState>
+      <LifeState>Open</LifeState>
+      <ProgressState>InReview</ProgressState>
+      <AcceptanceState>NotReadyForAcceptance</AcceptanceState>
+      <ShallCurated>AwaitingCuration</ShallCurated>
+   </Chores_Profile:Assignable_Business_Requirement>
+</xmi:XMI>
